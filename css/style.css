@@ -42,6 +42,19 @@ background-color: #F7F7F7;
 	margin-left: 13px;
 }
 
+.heading{
+	text-align: center;
+}
+.heading h2 {
+	text-transform: capitalize;
+	font-size: 38px;
+}
+.heading p {
+	font-size: 19px;
+	padding: 10px;
+	margin-bottom: 55px;
+}
+
 /* menu style */
 .navbar{}
 .navbar-brand {
@@ -132,4 +145,98 @@ background-color: #F7F7F7;
 .slider-image img {
 	width: 80%;
 	padding: 10px;
+}
+
+
+/* services style  */
+.service {
+	margin-top: 53px;
+}
+/* .services{
+	text-align: center;
+}
+.services h2 {
+	text-transform: capitalize;
+	font-size: 38px;
+}
+.services p {
+	font-size: 19px;
+	padding: 10px;
+	margin-bottom: 55px;
+} */
+.single-service {
+	width: 313px;
+	float: left;
+	margin-right: 30px;
+	border: 1px solid#333;
+	transition: 0.3s;
+}
+.single-service:last-child{
+	margin-right: 0;
+}
+.single-service:hover{
+	border-top: 5px solid tomato;
+	cursor: pointer;
+}
+.single-service img {
+	width: 70px;
+	padding: 10px;
+	margin-top: 50px;
+}
+.single-service h2 {
+	font-size: 27px;
+	color: tomato;
+}
+.single-service p{
+	padding: 18px;
+}
+.read-more {
+	text-align: center;
+	margin-top: 50px;
+}
+.read-more a{
+	font-size: 18px;
+}
+
+
+/* fruits style */
+.fruit{}
+.fruits{}
+.fruits h2 {
+	margin-top: 100px;
+  }
+.fruits p{}
+.single-fruits{}
+.fruits-content{
+	width: 600px;
+	float: left;
+}
+.fruits-content h2 {
+	text-align: left;
+	font-weight: normal;
+	font-size: 30px;
+}
+.fruits-content p {
+	text-align: left;
+	padding: 23px 0;
+	line-height: 30px;
+}
+.fruits-content a {
+	display: inline;
+	float: left;
+	margin-top: -45px;
+	text-transform: capitalize;
+	padding: 12px 36px;
+}
+.fruits-img{
+	width: 400px;
+	float: right;
+}
+.fruits-img img {
+	width: 416px;
+	padding: 80px 50px;
+}
+.image-size img {
+	width: 274px;
+	padding: 50px 84px;
 }
