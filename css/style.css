@@ -77,8 +77,24 @@ ul {
 
 /* menu style */
 .menu-full {
-  background-color: #f7f7f7;
+	background-color: #f7f7f7;
+  padding: 20px 0;
+  transition: 0.3s;
+	position: fixed;
+	left: 0;
+	right: 0;
+  top: 0;
+	width: 100%;
+  z-index: 99;
 }
+
+
+.menu-full.sticky{
+  padding:0;
+  font-size: 15px;
+}
+
+
 .navbar {
 }
 .navbar-brand {
@@ -116,11 +132,15 @@ ul {
   display: inline-block;
   margin: 15px 31px;
 }
+
+.navbar-manu ul li.active a{
+  color: tomato;
+}
 .navbar-manu ul li a {
   text-decoration: none;
   display: block;
   text-transform: capitalize;
-  font-size: 20px;
+  font-size: 18px;
   color: #343434;
   transition: 0.3s;
 }
@@ -136,7 +156,8 @@ ul {
   background-color: #f7f7f7;
 }
 .slider {
-  padding-top: 85px;
+	padding-top: 85px;
+	margin-top: 49px;
 }
 .single-slider {
 }

@@ -25,4 +25,16 @@ $(document).ready(function () {
     nextArrow:
       '<span class="next"><i class="fa-solid fa-chevron-right"></i></span>',
   });
+
+  $("#nav").onePageNav({
+    currentClass: "active",
+  });
+});
+
+$(window).on("scroll", function () {
+  if ($(this).scrollTop() > 20) {
+    $(".menu-full").addClass("sticky");
+  } else {
+    $(".menu-full").removeClass("sticky");
+  }
 });
