@@ -1,9 +1,20 @@
 /* reset code */
-
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;600;700&family=Kanit:wght@600&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,400;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Kanit', sans-serif;
+}
+p{
+  color: #5A483B;
+  font-family: 'Dosis', sans-serif;
 }
 img {
   width: 100%;
@@ -31,6 +42,10 @@ ul {
   font-size: 20px;
   text-transform: uppercase;
   color: #fff;
+  transition: 0.3s;
+}
+.btn-black:hover{
+  background-color: #666362;
 }
 .btn-tomato {
   text-decoration: none;
@@ -40,6 +55,10 @@ ul {
   text-transform: uppercase;
   color: #fff;
   margin-left: 13px;
+  transition: 0.3s;
+}
+.btn-tomato:hover{
+  background-color: #ff7720;;
 }
 
 .heading {
@@ -103,12 +122,13 @@ ul {
   text-transform: capitalize;
   font-size: 20px;
   color: #343434;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 .navbar-manu ul li a:hover {
-  border-bottom: 1px solid #fc5d35;
-  cursor: pointer;
+	border-bottom: 2px solid #fc5d35;
+	cursor: pointer;
+	padding-bottom: 2px;
 }
 
 /* slider style */
@@ -174,7 +194,7 @@ ul {
   width: 313px;
   float: left;
   margin-right: 30px;
-  border: 1px solid#333;
+  border: 1px solid#EBEBEB;
   transition: 0.3s;
 }
 .single-service:last-child {
@@ -274,6 +294,7 @@ ul {
 }
 .testimonial-slide img {
   width: 340px;
+  margin: 0 auto;
 }
 .testimonial h2 {
   font-weight: normal;
@@ -283,6 +304,7 @@ ul {
 .contact-us {
 }
 .contact {
+  margin-top: 88px;
 }
 .contact h2 {
   font-size: 35px;
@@ -304,19 +326,21 @@ ul {
   width: 100%;
   height: 40px;
   border: none;
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid #EBEBEB;
   margin-bottom: 20px;
   font-size: 17px;
   padding-left: 5px;
+  text-transform: capitalize;
 }
 textarea {
   width: 100%;
   margin-bottom: 35px;
   border: none;
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid #EBEBEB;
   font-size: 17px;
   padding-left: 5px;
   resize: none;
+  text-transform: capitalize;
 }
 .contact-img {
   width: 400px;
@@ -369,6 +393,7 @@ textarea {
 .single-footers-left ul li {
   font-size: 20px;
   line-height: 27px;
+  font-family: 'Dosis', sans-serif;
 }
 .footer-right {
   width: 300px;
@@ -389,6 +414,9 @@ textarea {
 }
 .social-icon ul li i {
   font-size: 30px;
+}
+.social-icon ul li:hover{
+  cursor: pointer;
 }
 .social-icon h2 {
 }
@@ -416,4 +444,75 @@ textarea {
 }
 .bottom-footer-full{
 	background-color:#EFEDED ;
+}
+
+
+/* slick arrow */
+.autoplay{
+  position: relative;
+}
+.autoplay .prev-arrow {
+	position: absolute;
+	bottom: 10px;
+	left: 45%;
+	background-color: #fc5d35;
+  color: #fff;
+	width: 40px;
+	height: 40px;
+	font-size: 20px;
+	text-align: center;
+	padding: 8px;
+	display: inline-block;
+	line-height: -16px;
+	border-radius: 50%;
+  cursor: pointer;
+}
+
+.autoplay .next {
+	position: absolute;
+	bottom: 10px;
+	left: 52%;
+	background-color: #333;
+	width: 40px;
+	height: 40px;
+	font-size: 20px;
+	text-align: center;
+	padding: 8px;
+	display: inline-block;
+	line-height: -16px;
+	border-radius: 50%;
+	cursor: pointer;
+	color: #fff;
+}
+
+.fade{
+  position: relative;
+}
+.fade .slick-prev {
+	position: absolute;
+	left: -93px;
+	top: 40%;
+	width: 50px;
+	height: 45px;
+	font-size: 20px;
+	text-align: center;
+	background: tomato;
+	color: #fff;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.fade .slick-next {
+	position: absolute;
+	left: -93px;
+	bottom: 43%;
+  position: absolute;
+	width: 50px;
+	height: 45px;
+	font-size: 20px;
+	text-align: center;
+	background: #333;
+	color: #fff;
+	font-weight: bold;
+	cursor: pointer;
 }
