@@ -1,4 +1,6 @@
 $(document).ready(function () {
+
+  // slick slider js
   $(".fade").slick({
     infinite: true,
     speed: 1500,
@@ -31,10 +33,17 @@ $(document).ready(function () {
   });
 });
 
+// sticky menu js
 $(window).on("scroll", function () {
   if ($(this).scrollTop() > 20) {
     $(".menu-full").addClass("sticky");
   } else {
     $(".menu-full").removeClass("sticky");
   }
+
+  //  slick nav js
+  $("#nav").slicknav({
+    label: "",
+    duration: 1000,
+  });
 });
