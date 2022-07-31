@@ -1,20 +1,25 @@
 /* reset code */
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;600;700&family=Kanit:wght@600&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,400;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200;600;700&family=Kanit:wght@600&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,400;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-body{
-  font-family: 'Poppins', sans-serif;
-font-family: 'Roboto', sans-serif;
+body {
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
-h1, h2, h3, h4, h5, h6{
-  font-family: 'Kanit', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Kanit", sans-serif;
 }
-p{
-  color: #5A483B;
-  font-family: 'Dosis', sans-serif;
+p {
+  color: #5a483b;
+  font-family: "Dosis", sans-serif;
 }
 img {
   width: 100%;
@@ -44,7 +49,7 @@ ul {
   color: #fff;
   transition: 0.3s;
 }
-.btn-black:hover{
+.btn-black:hover {
   background-color: #666362;
 }
 .btn-tomato {
@@ -57,8 +62,8 @@ ul {
   margin-left: 13px;
   transition: 0.3s;
 }
-.btn-tomato:hover{
-  background-color: #ff7720;;
+.btn-tomato:hover {
+  background-color: #ff7720;
 }
 
 .heading {
@@ -77,23 +82,21 @@ ul {
 
 /* menu style */
 .menu-full {
-	background-color: #f7f7f7;
+  background-color: #f7f7f7;
   padding: 20px 0;
   transition: 0.3s;
-	position: fixed;
-	left: 0;
-	right: 0;
+  position: fixed;
+  left: 0;
+  right: 0;
   top: 0;
-	width: 100%;
+  width: 100%;
   z-index: 99;
 }
 
-
-.menu-full.sticky{
-  padding:0;
+.menu-full.sticky {
+  padding: 0;
   font-size: 15px;
 }
-
 
 .navbar {
 }
@@ -133,7 +136,7 @@ ul {
   margin: 15px 31px;
 }
 
-.navbar-manu ul li.active a{
+.navbar-manu ul li.active a {
   color: tomato;
 }
 .navbar-manu ul li a {
@@ -146,9 +149,9 @@ ul {
 }
 
 .navbar-manu ul li a:hover {
-	border-bottom: 2px solid #fc5d35;
-	cursor: pointer;
-	padding-bottom: 2px;
+  border-bottom: 2px solid #fc5d35;
+  cursor: pointer;
+  padding-bottom: 2px;
 }
 
 /* slider style */
@@ -156,8 +159,8 @@ ul {
   background-color: #f7f7f7;
 }
 .slider {
-	padding-top: 85px;
-	margin-top: 49px;
+  padding-top: 85px;
+  margin-top: 49px;
 }
 .single-slider {
 }
@@ -189,8 +192,8 @@ ul {
   float: right;
 }
 .slider-image img {
-	width: 100%;
-	padding: 10px;
+  width: 100%;
+  padding: 10px;
 }
 
 /* services style  */
@@ -347,7 +350,7 @@ ul {
   width: 100%;
   height: 40px;
   border: none;
-  border-bottom: 1px solid #EBEBEB;
+  border-bottom: 1px solid #ebebeb;
   margin-bottom: 20px;
   font-size: 17px;
   padding-left: 5px;
@@ -357,7 +360,7 @@ textarea {
   width: 100%;
   margin-bottom: 35px;
   border: none;
-  border-bottom: 1px solid #EBEBEB;
+  border-bottom: 1px solid #ebebeb;
   font-size: 17px;
   padding-left: 5px;
   resize: none;
@@ -395,7 +398,6 @@ textarea {
   float: left;
 }
 .footers-left {
-  
 }
 .single-footers-left {
   width: 213px;
@@ -415,13 +417,12 @@ textarea {
 .single-footers-left ul li {
   font-size: 20px;
   line-height: 27px;
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
 }
 .footer-right {
   width: 300px;
   float: right;
   padding-left: 50px;
-
 }
 .footer-right h2 {
   padding: 15px 0;
@@ -439,7 +440,7 @@ textarea {
 .social-icon ul li i {
   font-size: 30px;
 }
-.social-icon ul li:hover{
+.social-icon ul li:hover {
   cursor: pointer;
 }
 .social-icon h2 {
@@ -466,81 +467,80 @@ textarea {
   padding-top: 30px;
   font-size: 20px;
 }
-.bottom-footer-full{
-	background-color:#EFEDED ;
+.bottom-footer-full {
+  background-color: #efeded;
 }
 
-
 /* slick arrow */
-.autoplay{
+.autoplay {
   position: relative;
 }
 .autoplay .prev-arrow {
-	position: absolute;
-	bottom: 10px;
-	left: 45%;
-	background-color: #fc5d35;
+  position: absolute;
+  bottom: 10px;
+  left: 45%;
+  background-color: #fc5d35;
   color: #fff;
-	width: 40px;
-	height: 40px;
-	font-size: 20px;
-	text-align: center;
-	padding: 8px;
-	display: inline-block;
-	line-height: -16px;
-	border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  text-align: center;
+  padding: 8px;
+  display: inline-block;
+  line-height: -16px;
+  border-radius: 50%;
   cursor: pointer;
 }
 
 .autoplay .next {
-	position: absolute;
-	bottom: 10px;
-	left: 52%;
-	background-color: #333;
-	width: 40px;
-	height: 40px;
-	font-size: 20px;
-	text-align: center;
-	padding: 8px;
-	display: inline-block;
-	line-height: -16px;
-	border-radius: 50%;
-	cursor: pointer;
-	color: #fff;
+  position: absolute;
+  bottom: 10px;
+  left: 52%;
+  background-color: #333;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  text-align: center;
+  padding: 8px;
+  display: inline-block;
+  line-height: -16px;
+  border-radius: 50%;
+  cursor: pointer;
+  color: #fff;
 }
 
-.fade{
+.fade {
   position: relative;
 }
 .fade .slick-prev {
-	position: absolute;
-	left: -93px;
-	top: 40%;
-	width: 50px;
-	height: 45px;
-	font-size: 20px;
-	text-align: center;
-	background: tomato;
-	color: #fff;
-	font-weight: bold;
-	cursor: pointer;
+  position: absolute;
+  left: -93px;
+  top: 40%;
+  width: 50px;
+  height: 45px;
+  font-size: 20px;
+  text-align: center;
+  background: tomato;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 .fade .slick-next {
-	position: absolute;
-	left: -93px;
-	bottom: 43%;
   position: absolute;
-	width: 50px;
-	height: 45px;
-	font-size: 20px;
-	text-align: center;
-	background: #333;
-	color: #fff;
-	font-weight: bold;
-	cursor: pointer;
+  left: -93px;
+  bottom: 43%;
+  position: absolute;
+  width: 50px;
+  height: 45px;
+  font-size: 20px;
+  text-align: center;
+  background: #333;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 .slicknav_menu {
-  display:none;
+  display: none;
 }

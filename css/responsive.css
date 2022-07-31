@@ -349,7 +349,6 @@
   /* fooeter style */
   .footer-left {
     width: 100%;
-
   }
 
   .single-footers-left {
@@ -362,25 +361,31 @@
     margin-top: 35px;
   }
   .footer-right h2 {
-    padding: 10px;
-    padding-right: 58px;
+    padding: 19px;
+    padding-right: 63px;
+  }
+  .social-icon {
+    text-align: left;
   }
 
+  .social-icon a {
+    font-size: 12px;
+  }
   .social-icon ul li {
     display: inline-block;
     padding: 10px 14px;
   }
   .social-icon input {
     width: 79%;
-   
   }
+
   .bottom-footer p {
     font-size: 15px;
   }
 
   .slicknav_menu {
-    display:block;
-    background-color: #F7F7F7;
+    display: block;
+    background-color: #f7f7f7;
   }
   .menu-full {
     top: auto;
@@ -400,11 +405,12 @@
     font-size: 20px;
     padding-bottom: 15px;
   }
-  .slicknav_nav a:hover{
+  .slicknav_nav a:hover {
     background-color: #f88379;
     color: #fff;
   }
-  .slicknav_nav li, .slicknav_nav ul {
+  .slicknav_nav li,
+  .slicknav_nav ul {
     display: block;
     border-bottom: 2px solid #fff;
     margin-bottom: 14px;
@@ -414,10 +420,9 @@
   }
 }
 
-
-@media only screen and (min-width: 480px) and (max-width: 767px){
-  .area{
-      width: 450px;
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .area {
+    width: 450px;
   }
   .navbar-brand-right {
     margin-top: 10px;
