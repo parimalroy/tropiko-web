@@ -319,6 +319,9 @@
   }
 
   /* testimonial style */
+  .testimonial-slide img {
+    width: 100%;
+  }
   .autoplay .prev-arrow {
     left: 38%;
   }
@@ -360,8 +363,7 @@
   }
   .footer-right h2 {
     padding: 10px;
-    font-weight: normal;
-    text-transform: capitalize;
+    padding-right: 58px;
   }
 
   .social-icon ul li {
