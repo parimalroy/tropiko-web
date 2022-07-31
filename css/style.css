@@ -189,8 +189,8 @@ ul {
   float: right;
 }
 .slider-image img {
-  width: 80%;
-  padding: 10px;
+	width: 100%;
+	padding: 10px;
 }
 
 /* services style  */
